@@ -1,0 +1,801 @@
+﻿web-scraper-order,web-scraper-start-url,sample,problems,problems-href,output
+"1525547769-376","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","100
+--------
+xxxzyzzxxzxyzxzxyxxzyzyzyyyyzzxxxzzxzyzzzxyxzzzxyzzxxxxzzzxyyxzzzzzyzzzxxzzxxxyxyzzyxzxxxyxzyxxyzyxz
+--------
+x   y   z
+--------
+A   B
+--------
+    A   B
+A   0.582   0.418
+B   0.272   0.728
+--------
+    x   y   z
+A   0.129   0.35    0.52
+B   0.422   0.151   0.426","Implement Viterbi Learning","http://rosalind.info/problems/ba10i/","A   B
+A   0.875   0.125
+B   0.011   0.989
+--------
+    x   y   z
+A   0.0 0.75    0.25
+B   0.402   0.174   0.424"
+"1525547744-364","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","XXZ
+4 -3 -2 3 3 -4 5 -3 -1 -1 3 4 1 3
+2","Find a Highest-Scoring Modified Peptide against a Spectrum","http://rosalind.info/problems/ba11j/","XX(-1)Z(+2)"
+"1525547748-366","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4 -3 -2 3 3 -4 5 -3 -1 -1 3 4 1 3
+1
+8","Compute the Size of a Spectral Dictionary","http://rosalind.info/problems/ba11h/","3"
+"1525547617-304","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(-3 +4 +1 +5 -2)","Implement GreedySorting to Sort a Permutation by Reversals","http://rosalind.info/problems/ba6a/","(-1 -4 +3 +5 -2)
+(+1 -4 +3 +5 -2)
+(+1 +2 -5 -3 +4)
+(+1 +2 +3 +5 +4)
+(+1 +2 +3 -4 -5)
+(+1 +2 +3 +4 -5)
+(+1 +2 +3 +4 +5)"
+"1525547693-340","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","GAGG
+CAGG
+GGGG
+GGGA
+CAGG
+AGGG
+GGAG","Construct the De Bruijn Graph of a Collection of k-mers","http://rosalind.info/problems/ba3e/","AGG -> GGG
+CAG -> AGG,AGG
+GAG -> AGG
+GGA -> GAG
+GGG -> GGA,GGG"
+"1525547646-318","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","40
+1,5,10,20,25,50","Find the Minimum Number of Coins Needed to Make Change","http://rosalind.info/problems/ba5a/","2"
+"1525547665-327","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0 113 128 186 241 299 314 427","Find a Cyclic Peptide with Theoretical Spectrum Matching an Ideal Spectrum","http://rosalind.info/problems/ba4e/","186-128-113 186-113-128 128-186-113 128-113-186 113-186-128 113-128-186"
+"1525547708-347","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","8 5
+CGCCCCTCTCGGGGGTGTTCAGTAAACGGCCA
+GGGCGAGGTATGTGTAAGTGCCAAGGTGCCAG
+TAGTACCGAGACCGAAAGAAGTATACAGGCGT
+TAGATCAAGTTTCAGGTGCACGTCGGTGAACC
+AATCCACCAGCTCCACGTGCAATGTTGGCCTA","Implement RandomizedMotifSearch","http://rosalind.info/problems/ba2f/","TCTCGGGG
+CCAAGGTG
+TACAGGCG
+TTCAGGTG
+TCCACGTG"
+"1525547608-300","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","3
+AAACTCATC
+TTTCAAATC","Find All Shared k-mers of a Pair of Strings","http://rosalind.info/problems/ba6e/","(0, 4)
+(0, 0)
+(4, 2)
+(6, 6)"
+"1525547771-377","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","yzzzyxzxxx
+--------
+x   y   z
+--------
+BBABABABAB
+--------
+A   B   C","Estimate the Parameters of an HMM","http://rosalind.info/problems/ba10h/","A   B   C
+A   0.0 1.0 0.0
+B   0.8 0.2 0.0
+C   0.333   0.333   0.333
+--------
+    x   y   z
+A   0.25    0.25    0.5
+B   0.5 0.167   0.333
+C   0.333   0.333   0.333"
+"1525547739-362","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","CGGACTCGACAGATGTGAAGAAATGTGAAGACTGAGTGAAGAGAAGAGGAAACACGACACGACATTGCGACATAATGTACGAATGTAATGTGCCTATGGC
+5 75 4","Find Patterns Forming Clumps in a String","http://rosalind.info/problems/ba1e/","CGACA GAAGA AATGT"
+"1525547634-312","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","PLEASANTLY
+MEANLY","Compute the Edit Distance Between Two Strings","http://rosalind.info/problems/ba5g/","5"
+"1525547672-330","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ATGGCCATGGCCCCCAGAACTGAGATCAATAGTACCCGTATTAACGGGTGA
+MA","Find Substrings of a Genome Encoding a Given Amino Acid String","http://rosalind.info/problems/ba4b/","ATGGCC
+GGCCAT
+ATGGCC"
+"1525547604-298","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(1 2 4 3 6 5 7 8)","Implement CycleToChromosome","http://rosalind.info/problems/ba6g/","(+1 -2 -3 +4)"
+"1525547558-277","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","TCGGTAGATTGCGCCCACTC
+AGGGGCTCGCAGTGTAAGAA","Find the Longest Substring Shared by Two Strings","http://rosalind.info/problems/ba9e/","AGA"
+"1525547720-353","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ACG
+1","Generate the d-Neighborhood of a String","http://rosalind.info/problems/ba1n/","CCG
+TCG
+GCG
+AAG
+ATG
+AGG
+ACA
+ACC
+ACT
+ACG"
+"1525547585-289","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4
+0   23  27  20
+23  0   30  28
+27  30  0   30
+20  28  30  0","Implement the Neighbor Joining Algorithm","http://rosalind.info/problems/ba7e/","0->4:8.000
+1->5:13.500
+2->5:16.500
+3->4:12.000
+4->5:2.000
+4->0:8.000
+4->3:12.000
+5->1:13.500
+5->2:16.500
+5->4:2.000"
+"1525547534-266","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0 -> {}
+1 -> {}
+2 -> 0,1
+3 -> {}
+4 -> {}
+5 -> 3,2
+6 -> {}
+7 -> 4,5,6
+-
+0: red
+1: red
+3: blue
+4: blue
+6: red","Implement TreeColoring","http://rosalind.info/problems/ba9p/","0: red
+1: red
+2: red
+3: blue
+4: blue
+5: purple
+6: red
+7: purple"
+"1525547781-382","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","xyxzzxyxyy
+--------
+x   y   z
+--------
+A   B
+--------
+    A   B
+A   0.641   0.359
+B   0.729   0.271
+--------
+    x   y   z
+A   0.117   0.691   0.192   
+B   0.097   0.42    0.483","Implement the Viterbi Algorithm","http://rosalind.info/problems/ba10c/","AAABBAAAAA"
+"1525547718-352","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","3 1
+ATTTGGC
+TGCCTTA
+CGGTATC
+GAAAATT","Implement MotifEnumeration","http://rosalind.info/problems/ba2a/","ATA ATT GTT TTT"
+"1525547537-267","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ACATGCTACTTT
+ATT GCC GCTA TATT
+1","Find All Approximate Occurrences of a Collection of Patterns in a String","http://rosalind.info/problems/ba9o/","2 4 4 6 7 8 9"
+"1525547598-295","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(2, 4), (3, 8), (7, 5), (6, 1)
+1, 6, 3, 8","Implement 2-BreakOnGenomeGraph","http://rosalind.info/problems/ba6j/","(2, 4), (3, 1), (7, 5), (6, 8)"
+"1525547638-314","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","PLEASANTLY
+MEANLY","Find a Highest-Scoring Alignment of Two Strings","http://rosalind.info/problems/ba5e/","8
+PLEASANTLY
+-MEA--N-LY"
+"1525547750-367","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","-1 5 -4 5 3 -1 -4 5 -1 0 0 4 -1 0 1 4 4 4
+-4 2 -2 -4 4 -5 -1 4 -1 2 5 -3 -1 3 2 -3
+XXXZXZXXZXZXXXZXXZX
+5","Implement PSMSearch","http://rosalind.info/problems/ba11g/","XZXZ"
+"1525547741-363","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ATAT
+GATATATGCATATACTT","Find All Occurrences of a Pattern in a String","http://rosalind.info/problems/ba1d/","1 3 9"
+"1525547695-341","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4
+AAGATTCTCTAC","Construct the De Bruijn Graph of a String","http://rosalind.info/problems/ba3d/","AAG -> AGA
+AGA -> GAT
+ATT -> TTC
+CTA -> TAC
+CTC -> TCT
+GAT -> ATT
+TCT -> CTA,CTC
+TTC -> TCT"
+"1525547630-310","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","PAWHEAE
+HEAGAWGHEE","Find a Highest-Scoring Overlap Alignment of Two Strings","http://rosalind.info/problems/ba5i/","1
+HEAE
+HEAG"
+"1525547530-264","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","GTAGT$
+5, 2, 3, 0, 4, 1
+0, 0, 0, 2, 0, 1","Construct a Suffix Tree from a Suffix Array","http://rosalind.info/problems/ba9r/","$
+T
+AGT$
+$
+AGT$
+GT
+$
+AGT$"
+"1525547663-326","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","NQEL
+0 99 113 114 128 227 257 299 355 356 370 371 484","Compute the Score of a Cyclic Peptide Against a Spectrum","http://rosalind.info/problems/ba4f/","11"
+"1525547733-359","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ATTCTGGA
+CGCCCGAATCCAGAACGCATTCCCATATTTCGGGACCACTGGCCTCCACGGTACGGACGTCAATCAAATGCCTAGCGGCTTGTGGTTTCTCCTACGCTCC
+3","Find All Approximate Occurrences of a Pattern in a String","http://rosalind.info/problems/ba1h/","6 7 26 27 78"
+"1525547710-348","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","3 5
+GGCGTTCAGGCA
+AAGAATCAGTCA
+CAAGGAGTTCGC
+CACGTCAATCAC
+CAATAATATTCG","Implement GreedyMotifSearch with Pseudocounts","http://rosalind.info/problems/ba2e/","TTC
+ATC
+TTC
+ATC
+TTC"
+"1525547532-265","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","PANAMABANANAS$
+5","Construct the Partial Suffix Array of a String","http://rosalind.info/problems/ba9q/","1,5
+11,10
+12,0"
+"1525547703-345","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AAA
+TTACCTTAAC GATATCTGTC ACGGCGTTCG CCCTAAAGAG CGTCAGAGGT","Implement DistanceBetweenPatternAndStrings","http://rosalind.info/problems/ba2h/","5"
+"1525547754-369","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0 0 0 4 -2 -3 -1 -7 6 5 3 2 1 9 3 -8 0 3 1 2 1 0","Sequence a Peptide","http://rosalind.info/problems/ba11e/","XZZXX"
+"1525547784-383","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","xxyzyxzzxzxyxyyzxxzzxxyyxxyxyzzxxyzyzxzxxyxyyzxxzx
+--------
+x   y   z
+--------
+BBBAAABABABBBBBBAAAAAABAAAABABABBBBBABAABABABABBBB
+--------
+A   B
+--------
+    x   y   z
+A   0.612   0.314   0.074 
+B   0.346   0.317   0.336","Compute the Probability of an Outcome Given a Hidden Path","http://rosalind.info/problems/ba10b/","1.93157070893e-28"
+"1525547674-331","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AUGGCCAUGGCGCCCAGAACUGAGAUCAAUAGUACCCGUAUUAACGGGUGA","Translate an RNA String into an Amino Acid String","http://rosalind.info/problems/ba4a/","MAMAPRTEINSTRING"
+"1525547765-374","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","10
+--------
+xzyyzyzyxy
+--------
+x   y   z
+--------
+A   B
+--------
+    A   B
+A   0.019   0.981 
+B   0.668   0.332 
+--------
+x   y   z
+A   0.175   0.003   0.821 
+B   0.196   0.512   0.293","Implement Baum-Welch Learning","http://rosalind.info/problems/ba10k/","A   B
+A   0.000   1.000   
+B   0.786   0.214   
+--------
+    x   y   z
+A   0.242   0.000   0.758   
+B   0.172   0.828   0.000"
+"1525547716-351","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","3
+AAATTGACGCAT
+GACGACCACGTT
+CGTCAGCGCCTG
+GCTGAGCACCGG
+AGTACGGGACAG","Find a Median String","http://rosalind.info/problems/ba2b/","GAC"
+"1525547701-344","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","5
+CAATCCAAC","Generate the k-mer Composition of a String","http://rosalind.info/problems/ba3a/","AATCC
+ATCCA
+CAATC
+CCAAC
+TCCAA"
+"1525547569-282","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","7
+0.00 0.74 0.85 0.54 0.83 0.92 0.89
+0.74 0.00 1.59 1.35 1.20 1.48 1.55
+0.85 1.59 0.00 0.63 1.13 0.69 0.73
+0.54 1.35 0.63 0.00 0.66 0.43 0.88
+0.83 1.20 1.13 0.66 0.00 0.72 0.55
+0.92 1.48 0.69 0.43 0.72 0.00 0.80
+0.89 1.55 0.73 0.88 0.55 0.80 0.00","Implement Hierarchical Clustering","http://rosalind.info/problems/ba8e/","4 6
+5 7
+3 4 6
+1 2
+5 7 3 4 6
+1 2 5 7 3 4 6"
+"1525547727-356","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ACGCGGCTCTGAAA
+2","Generate the Frequency Array of a String","http://rosalind.info/problems/ba1k/","2 1 0 0 0 0 2 2 1 2 1 0 0 1 1 0"
+"1525547659-324","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0 137 186 323","Generate the Convolution of a Spectrum","http://rosalind.info/problems/ba4h/","137 137 186 186 323 49"
+"1525547561-278","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ATATCGTTTTATCGTT","Find the Longest Repeat in a String","http://rosalind.info/problems/ba9d/","TATCGTT"
+"1525547627-309","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","PRTEINS
+PRTWPSEIN","Align Two Strings Using Affine Gap Penalties","http://rosalind.info/problems/ba5j/","8
+PRT---EINS
+PRTWPSEIN-"
+"1525547556-276","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","CCAAGCTGCTAGAGG
+CATGCTGGGCTGGCT","Find the Shortest Non-Shared Substring of Two Strings","http://rosalind.info/problems/ba9f/","AA"
+"1525547653-321","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","NQEL
+0 99 113 114 128 227 257 299 355 356 370 371 484","Compute the Score of a Linear Peptide","http://rosalind.info/problems/ba4k/","8"
+"1525547661-325","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","10
+0 71 113 129 147 200 218 260 313 331 347 389 460","Implement LeaderboardCyclopeptideSequencing","http://rosalind.info/problems/ba4g/","113-147-71-129"
+"1525547779-381","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","xzyyzzyzyy
+--------
+x   y   z
+--------
+A   B
+--------
+    A   B
+A   0.303   0.697 
+B   0.831   0.169 
+--------
+    x   y   z
+A   0.533   0.065   0.402 
+B   0.342   0.334   0.324","Compute the Probability of a String Emitted by an HMM","http://rosalind.info/problems/ba10d/","1.1005510319694847e-06"
+"1525547548-272","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","TTCCTAACG$A","Reconstruct a String from its Burrows-Wheeler Transform","http://rosalind.info/problems/ba9j/","TACATCACGT$"
+"1525547670-329","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","LEQN","Generate the Theoretical Spectrum of a Cyclic Peptide","http://rosalind.info/problems/ba4c/","0 113 114 128 129 227 242 242 257 355 356 370 371 484"
+"1525547735-360","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","GGGCCGTTGGT
+GGACCGTTGAC","Compute the Hamming Distance Between Two Strings","http://rosalind.info/problems/ba1g/","3"
+"1525547680-334","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ATG
+ATG
+TGT
+TGG
+CAT
+GGA
+GAT
+AGA","Generate Contigs from a Collection of Reads","http://rosalind.info/problems/ba3k/","AGA ATG ATG CAT GAT TGGA TGT"
+"1525547684-336","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4","Find a k-Universal Circular String","http://rosalind.info/problems/ba3i/","0000110010111101"
+"1525547539-268","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AATCGGGTTCAATCGGGGT
+ATCG
+GGGT","Find All Occurrences of a Collection of Patterns in a String","http://rosalind.info/problems/ba9n/","1 4 11 15"
+"1525547678-333","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4 2
+GACC|GCGC
+ACCG|CGCC
+CCGA|GCCG
+CGAG|CCGG
+GAGC|CGGA","Construct a String Spelled by a Gapped Genome Path","http://rosalind.info/problems/ba3l/","GACCGAGCGCCGGA"
+"1525547760-372","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","57 71 154 185 301 332 415 429 486","Implement DecodingIdealSpectrum","http://rosalind.info/problems/ba11b/","GPFNA"
+"1525547644-317","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4 4
+1 0 2 4 3
+4 6 5 2 1
+4 4 5 2 1
+5 6 8 5 3
+-
+3 2 4 0
+3 2 4 2
+0 7 3 3
+3 3 0 2
+1 3 2 2","Find the Length of a Longest Path in a Manhattan-like Grid","http://rosalind.info/problems/ba5b/","34"
+"1525547550-273","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","GCGTGCCTGGTCA$","Construct the Burrows-Wheeler Transform of a String","http://rosalind.info/problems/ba9i/","ACTGGCT$TGCGGC"
+"1525547581-287","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4
+TCGGCCAA->4
+4->TCGGCCAA
+CCTGGCTG->4
+4->CCTGGCTG
+CACAGGAT->5
+5->CACAGGAT
+TGAGTACC->5
+5->TGAGTACC
+4->5
+5->4","Adapt SmallParsimony to Unrooted Trees","http://rosalind.info/problems/ba7g/","17
+TCGGCCAA->CCAGGCAC:4
+CCTGGCTG->CCAGGCAC:3
+TGAGTACC->CAAGGAAC:4
+CCAGGCAC->CCTGGCTG:3
+CCAGGCAC->CAAGGAAC:2
+CCAGGCAC->TCGGCCAA:4
+CACAGGAT->CAAGGAAC:4
+CAAGGAAC->CACAGGAT:4
+CAAGGAAC->TGAGTACC:4
+CAAGGAAC->CCAGGCAC:2"
+"1525547554-275","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AACGATAGCGGTAGA$","Construct the Suffix Array of a String","http://rosalind.info/problems/ba9g/","15, 14, 0, 1, 12, 6, 4, 2, 8, 13, 3, 7, 9, 10, 11, 5"
+"1525547611-301","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(+1 -2 -3 +4)
+(+1 +2 -4 -3)","Find a Shortest Transformation of One Genome into Another by 2-Breaks","http://rosalind.info/problems/ba6d/","(+1 -2 -3 +4)
+(+1 -2 -3)(+4)
+(+1 -2 -4 -3)
+(+1 +2 -4 -3)"
+"1525547625-308","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","PLEASANTLY
+MEASNLY","Find a Middle Edge in an Alignment Graph in Linear Space","http://rosalind.info/problems/ba5k/","(4, 3) (5, 4)"
+"1525547594-293","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4
+0->4:11
+1->4:2
+2->5:6
+3->5:7
+4->0:11
+4->1:2
+4->5:4
+5->4:4
+5->3:7
+5->2:6","Compute Distances Between Leaves","http://rosalind.info/problems/ba7a/","0   13  21  22
+13  0   12  13
+21  12  0   13
+22  13  13  0"
+"1525547541-269","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","GGCGCCGC$TAGTCACACACGCCGTA
+ACC CCG CAG","Implement BetterBWMatching","http://rosalind.info/problems/ba9m/","1 2 1"
+"1525547567-281","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ATAGA
+ATC
+GAT","Construct a Trie from a Collection of Patterns","http://rosalind.info/problems/ba9a/","0->1:A
+1->2:T
+2->3:A
+3->4:G
+4->5:A
+2->6:C
+0->7:G
+7->8:A
+8->9:T"
+"1525547786-384","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AABBBAABABAAAABBBBAABBABABBBAABBAAAABABAABBABABBAB
+--------
+A   B
+--------
+    A   B
+A   0.194   0.806
+B   0.273   0.727","Compute the Probability of a Hidden Path","http://rosalind.info/problems/ba10a/","5.01732865318e-19"
+"1525547573-284","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","2 2
+1.3 1.1
+1.3 0.2
+0.6 2.8
+3.0 3.2
+1.2 0.7
+1.4 1.6
+1.2 1.0
+1.2 1.1
+0.6 1.5
+1.8 2.6
+1.2 1.3
+1.2 1.0
+0.0 1.9","Implement the Lloyd Algorithm for k-Means Clustering","http://rosalind.info/problems/ba8c/","1.800 2.867
+1.060 1.140"
+"1525547667-328","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","1024","Compute the Number of Peptides of Given Total Mass","http://rosalind.info/problems/ba4d/","14712706211"
+"1525547543-270","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","TCCTCTATGAGATCCTATTCTATGAAACCTTCA$GACCAAAATTCTCCGGC
+CCT CAC GAG CAG ATC","Implement BWMatching","http://rosalind.info/problems/ba9l/","2 1 1 0 1"
+"1525547615-303","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(+3 +4 +5 -12 -8 -7 -6 +1 +2 +10 +9 -11 +13 +14)","Compute the Number of Breakpoints in a Permutation","http://rosalind.info/problems/ba6b/","8"
+"1525547649-319","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","-10 -8 -7 -6 -5 -4 -3 -3 -2 -2 0 0 0 0 0 2 2 3 3 4 5 6 7 8 10","Solve the Turnpike Problem","http://rosalind.info/problems/ba4m/","0 2 4 7 10"
+"1525547723-354","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","45
+4","Implement NumberToPattern","http://rosalind.info/problems/ba1m/","AGTC"
+"1525547737-361","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","CCTATCGGTGGATTAGCATGTCCCTGTACGTTTCGCCGCGAACTAGTTCACACGGCTTGATGGCAAATGGTTTTTCCGGCGACCGTAATCGTCCACCGAG","Find a Position in a Genome Minimizing the Skew","http://rosalind.info/problems/ba1f/","53 97"
+"1525547763-373","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","57 71 154 185 301 332 415 429 486","Construct the Graph of a Spectrum","http://rosalind.info/problems/ba11a/","0->57:G
+0->71:A
+57->154:P
+57->185:K
+71->185:N
+154->301:F
+185->332:F
+301->415:N
+301->429:K
+332->429:P
+415->486:A
+429->486:G"
+"1525547632-311","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","GTAGGCTTAAGGTTA
+TAGATA","Find a Highest-Scoring Fitting Alignment of Two Strings","http://rosalind.info/problems/ba5h/","2
+TAGGCTTA
+TAGA--TA"
+"1525547689-338","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0 -> 2
+1 -> 3
+2 -> 1
+3 -> 0,4
+6 -> 3,7
+7 -> 8
+8 -> 9
+9 -> 6","Find an Eulerian Path in a Graph","http://rosalind.info/problems/ba3g/","6->7->8->9->6->3->0->2->1->3->4"
+"1525547642-316","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AACCTTGG
+ACACTGTGA","Find a Longest Common Subsequence of Two Strings","http://rosalind.info/problems/ba5c/","AACTGG"
+"1525547706-346","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","8 5 100
+CGCCCCTCTCGGGGGTGTTCAGTAAACGGCCA
+GGGCGAGGTATGTGTAAGTGCCAAGGTGCCAG
+TAGTACCGAGACCGAAAGAAGTATACAGGCGT
+TAGATCAAGTTTCAGGTGCACGTCGGTGAACC
+AATCCACCAGCTCCACGTGCAATGTTGGCCTA","Implement GibbsSampler","http://rosalind.info/problems/ba2g/","TCTCGGGG
+CCAAGGTG
+TACAGGCG
+TTCAGGTG
+TCCACGTG"
+"1525547600-296","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(2, 4), (3, 6), (5, 1), (7, 9), (10, 12), (11, 8)","Implement GraphToGenome","http://rosalind.info/problems/ba6i/","(+1 -2 -3)(-4 +5 -6)"
+"1525547729-357","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ACGTTGCATGTCGCATGATGCATGAGAGCT
+4 1","Find Frequent Words with Mismatches and Reverse Complements","http://rosalind.info/problems/ba1j/","ATGT ACAT"
+"1525547697-342","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ATGCG
+GCATG
+CATGC
+AGGCA
+GGCAT","Construct the Overlap Graph of a Collection of k-mers","http://rosalind.info/problems/ba3c/","AGGCA -> GGCAT
+CATGC -> ATGCG
+GCATG -> CATGC
+GGCAT -> GCATG"
+"1525547691-339","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0 -> 3
+1 -> 0
+2 -> 1,6
+3 -> 2
+4 -> 2
+5 -> 4
+6 -> 5,8
+7 -> 9
+8 -> 7
+9 -> 6","Find an Eulerian Cycle in a Graph","http://rosalind.info/problems/ba3f/","6->8->7->9->6->5->4->2->1->0->3->2->6"
+"1525547621-306","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ATATCCG
+TCCGA
+ATGTACTG","Find a Highest-Scoring Multiple Sequence Alignment","http://rosalind.info/problems/ba5m/","3
+ATATCC-G-
+---TCC-GA
+ATGTACTG-"
+"1525547767-375","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","zyxxxxyxzz
+--------
+x   y   z
+--------
+A   B
+--------
+    A   B
+A   0.911   0.089
+B   0.228   0.772
+--------
+    x   y   z
+A   0.356   0.191   0.453 
+B   0.04    0.467   0.493","Solve the Soft Decoding Problem","http://rosalind.info/problems/ba10j/","A   B 
+0.5438  0.4562 
+0.6492  0.3508 
+0.9647  0.0353 
+0.9936  0.0064 
+0.9957  0.0043 
+0.9891  0.0109 
+0.9154  0.0846 
+0.964   0.036 
+0.8737  0.1263 
+0.8167  0.1833"
+"1525547619-305","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","1 -> 2
+2 -> 3
+4 -> 2
+5 -> 3","Find a Topological Ordering of a DAG","http://rosalind.info/problems/ba5n/","1, 4, 5, 2, 3"
+"1525547576-285","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","2 2
+2.31 4.55
+5.96 9.08
+--------
+3.42 6.03
+6.23 8.25
+4.76 1.64
+4.47 4.33
+3.95 7.61
+8.93 2.97
+9.74 4.03
+1.73 1.28
+9.72 5.01
+7.27 3.77","Compute the Squared Error Distortion","http://rosalind.info/problems/ba8b/","18.246"
+"1525547758-371","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","XZZXX","Convert a Peptide into a Peptide Vector","http://rosalind.info/problems/ba11c/","0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 1"
+"1525547583-288","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4
+4->CAAATCCC
+4->ATTGCGAC
+5->CTGCGCTG
+5->ATGGACGA
+6->4
+6->5","Implement SmallParsimony","http://rosalind.info/problems/ba7f/","16
+ATTGCGAC->ATAGCCAC:2
+ATAGACAA->ATAGCCAC:2
+ATAGACAA->ATGGACTA:2
+ATGGACGA->ATGGACTA:1
+CTGCGCTG->ATGGACTA:4
+ATGGACTA->CTGCGCTG:4
+ATGGACTA->ATGGACGA:1
+ATGGACTA->ATAGACAA:2
+ATAGCCAC->CAAATCCC:5
+ATAGCCAC->ATTGCGAC:2
+ATAGCCAC->ATAGACAA:2
+CAAATCCC->ATAGCCAC:5"
+"1525547792-387","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","GCGCG
+GCG","Compute the Number of Times a Pattern Appears in a Text","http://rosalind.info/problems/ba1a/","2"
+"1525547563-279","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ATAAATG$","Construct the Suffix Tree of a String","http://rosalind.info/problems/ba9c/","AAATG$
+G$
+T
+ATG$
+TG$
+A
+A
+AAATG$
+G$
+T
+G$
+$"
+"1525547714-350","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ACCTGTTTATTGCCTAAGTTCCGAACAAACCCAATATAGCCCGAGGGCCT
+5
+0.2 0.2 0.3 0.2 0.3
+0.4 0.3 0.1 0.5 0.1
+0.3 0.3 0.5 0.2 0.4
+0.1 0.2 0.1 0.1 0.2","Find a Profile-most Probable k-mer in a String","http://rosalind.info/problems/ba2c/","CCGAG"
+"1525547773-378","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AEFDFDC
+--------
+0.4 0.01
+--------
+A   B   C   D   E   F
+--------
+ACDEFACADF
+AFDA---CCF
+A--EFD-FDC
+ACAEF--A-C
+ADDEFAAADF","Perform a Multiple Sequence Alignment with a Profile HMM","http://rosalind.info/problems/ba10g/","M1 D2 D3 M4 M5 I5 M6 M7 M8"
+"1525547606-299","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(+1 -2 -3 +4)","Implement ChromosomeToCycle","http://rosalind.info/problems/ba6f/","(1 2 4 3 6 5 7 8)"
+"1525547587-290","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4
+0   20  17  11
+20  0   20  13
+17  20  0   10
+11  13  10  0","Implement UPGMA","http://rosalind.info/problems/ba7d/","0->5:7.000
+1->6:8.833
+2->4:5.000
+3->4:5.000
+4->2:5.000
+4->3:5.000
+4->5:2.000
+5->0:7.000
+5->4:2.000
+5->6:1.833
+6->5:1.833
+6->1:8.833"
+"1525547682-335","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4 2
+GAGA|TTGA
+TCGT|GATG
+CGTG|ATGT
+TGGT|TGAG
+GTGA|TGTT
+GTGG|GTGA
+TGAG|GTTG
+GGTC|GAGA
+GTCG|AGAT","Reconstruct a String from its Paired Composition","http://rosalind.info/problems/ba3j/","GTGGTCGTGAGATGTTGA"
+"1525547545-271","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","T$GACCA
+3","Generate the Last-to-First Mapping of a String","http://rosalind.info/problems/ba9k/","1"
+"1525547676-332","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","1 -> 2
+2 -> 3
+3 -> 4,5
+6 -> 7
+7 -> 6","Generate All Maximal Non-Branching Paths in a Graph","http://rosalind.info/problems/ba3m/","1 -> 2 -> 3
+3 -> 4
+3 -> 5
+7 -> 6 -> 7"
+"1525547788-385","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AAAACCCGGT","Find the Reverse Complement of a String","http://rosalind.info/problems/ba1c/","ACCGGGTTTT"
+"1525547756-370","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 1","Convert a Peptide Vector into a Peptide","http://rosalind.info/problems/ba11d/","XZZXX"
+"1525547613-302","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(+1 +2 +3 +4 +5 +6)
+(+1 -3 -6 -5)(+2 -4)","Compute the 2-Break Distance Between a Pair of Genomes","http://rosalind.info/problems/ba6c/","3"
+"1525547651-320","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","LAST ALST TLLT TQAS
+0 71 87 101 113 158 184 188 259 271 372
+2","Trim a Peptide Leaderboard","http://rosalind.info/problems/ba4l/","LAST ALST"
+"1525547712-349","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","3 5
+GGCGTTCAGGCA
+AAGAATCAGTCA
+CAAGGAGTTCGC
+CACGTCAATCAC
+CAATAATATTCG","Implement GreedyMotifSearch","http://rosalind.info/problems/ba2d/","CAG
+CAG
+CAA
+CAA
+CAA"
+"1525547592-292","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4
+1
+0   13  21  22
+13  0   12  13
+21  12  0   13
+22  13  13  0","Compute Limb Lengths in a Tree","http://rosalind.info/problems/ba7b/","2"
+"1525547636-313","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","MEANLY
+PENALTY","Find a Highest-Scoring Local Alignment of Two Strings","http://rosalind.info/problems/ba5f/","15
+EANL-Y
+ENALTY"
+"1525547775-379","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0.358   0.01
+--------
+A   B   C   D   E
+--------
+ADA
+ADA
+AAA
+ADC
+-DA
+D-A","Construct a Profile HMM with Pseudocounts","http://rosalind.info/problems/ba10f/","S   I0  M1  D1  I1  M2  D2  I2  M3  D3  I3  E
+S   0   0.01    0.819   0.172   0   0   0   0   0   0   0   0
+I0  0   0.333   0.333   0.333   0   0   0   0   0   0   0   0
+M1  0   0   0   0   0.01    0.786   0.204   0   0   0   0   0
+D1  0   0   0   0   0.01    0.981   0.01    0   0   0   0   0
+I1  0   0   0   0   0.333   0.333   0.333   0   0   0   0   0
+M2  0   0   0   0   0   0   0   0.01    0.981   0.01    0   0
+D2  0   0   0   0   0   0   0   0.01    0.981   0.01    0   0
+I2  0   0   0   0   0   0   0   0.333   0.333   0.333   0   0
+M3  0   0   0   0   0   0   0   0   0   0   0.01    0.99
+D3  0   0   0   0   0   0   0   0   0   0   0.5 0.5
+I3  0   0   0   0   0   0   0   0   0   0   0.5 0.5
+E   0   0   0   0   0   0   0   0   0   0   0   0
+--------
+    A   B   C   D   E
+S   0   0   0   0   0
+I0  0.2 0.2 0.2 0.2 0.2
+M1  0.771   0.01    0.01    0.2 0.01
+D1  0   0   0   0   0
+I1  0.2 0.2 0.2 0.2 0.2
+M2  0.2 0.01    0.01    0.771   0.01
+D2  0   0   0   0   0
+I2  0.2 0.2 0.2 0.2 0.2
+M3  0.803   0.01    0.168   0.01    0.01
+D3  0   0   0   0   0
+I3  0.2 0.2 0.2 0.2 0.2
+E   0   0   0   0   0"
+"1525547790-386","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ACGTTGCATGTCGCATGATGCATGAGAGCT
+4","Find the Most Frequent Words in a String","http://rosalind.info/problems/ba1b/","CATG GCAT"
+"1525547589-291","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4
+0   13  21  22
+13  0   12  13
+21  12  0   13
+22  13  13  0","Implement AdditivePhylogeny","http://rosalind.info/problems/ba7c/","0->4:11
+1->4:2
+2->5:6
+3->5:7
+4->0:11
+4->1:2
+4->5:4
+5->4:4
+5->3:7
+5->2:6"
+"1525547571-283","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","2 2
+2.7
+1.3 1.1
+1.3 0.2
+0.6 2.8
+3.0 3.2
+1.2 0.7
+1.4 1.6
+1.2 1.0
+1.2 1.1
+0.6 1.5
+1.8 2.6
+1.2 1.3
+1.2 1.0
+0.0 1.9","Implement the Soft k-Means Clustering Algorithm","http://rosalind.info/problems/ba8d/","1.662 2.623
+1.075 1.148"
+"1525547699-343","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ACCGA
+CCGAA
+CGAAG
+GAAGC
+AAGCT","Reconstruct a String from its Genome Path","http://rosalind.info/problems/ba3b/","ACCGAAGCT"
+"1525547640-315","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0
+4
+0->1:7
+0->2:4
+2->3:2
+1->4:1
+3->4:3","Find the Longest Path in a DAG","http://rosalind.info/problems/ba5d/","9
+0->2->3->4"
+"1525547731-358","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","ACGTTGCATGTCGCATGATGCATGAGAGCT
+4 1","Find the Most Frequent Words with Mismatches in a String","http://rosalind.info/problems/ba1i/","GATG ATGC ATGT"
+"1525547657-323","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","20
+60
+57 57 71 99 129 137 170 186 194 208 228 265 285 299 307 323 356 364 394 422 493","Implement ConvolutionCyclopeptideSequencing","http://rosalind.info/problems/ba4i/","99-71-137-57-72-57"
+"1525547602-297","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(+1 -2 -3)(+4 +5 -6)","Implement ColoredEdges","http://rosalind.info/problems/ba6h/","(2, 4), (3, 6), (5, 1), (8, 9), (10, 12), (11, 7)"
+"1525547565-280","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AATCGGGTTCAATCGGGGT
+ATCG
+GGGT","Implement TrieMatching","http://rosalind.info/problems/ba9b/","1 4 11 15"
+"1525547552-274","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AATCGGGTTCAATCGGGGT
+ATCG
+GGGT","Pattern Matching with the Suffix Array","http://rosalind.info/problems/ba9h/","1 4 11 15"
+"1525547623-307","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","PLEASANTLY
+MEANLY","Align Two Strings Using Linear Space","http://rosalind.info/problems/ba5l/","8
+PLEASANTLY
+-MEA--N-LY"
+"1525547578-286","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","3 2
+0.0 0.0
+5.0 5.0
+0.0 5.0
+1.0 1.0
+2.0 2.0
+3.0 3.0
+1.0 2.0","Implement FarthestFirstTraversal","http://rosalind.info/problems/ba8a/","0.0 0.0
+5.0 5.0
+0.0 5.0"
+"1525547746-365","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4 -3 -2 3 3 -4 5 -3 -1 -1 3 4 1 3
+1
+8","Compute the Probability of a Spectral Dictionary","http://rosalind.info/problems/ba11i/","0.375"
+"1525547725-355","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","AGT","Implement PatternToNumber","http://rosalind.info/problems/ba1l/","11"
+"1525547686-337","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","4
+CTTA
+ACCA
+TACC
+GGCT
+GCTT
+TTAC","Reconstruct a String from its k-mer Composition","http://rosalind.info/problems/ba3h/","GGCTTACCA"
+"1525547777-380","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0.289
+--------
+A   B   C   D   E
+--------
+EBA
+EBD
+EB-
+EED
+EBD
+EBE
+E-D
+EBD","Construct a Profile HMM","http://rosalind.info/problems/ba10e/","S   I0  M1  D1  I1  M2  D2  I2  M3  D3  I3  E
+S   0   0   1.0 0   0   0   0   0   0   0   0   0
+I0  0   0   0   0   0   0   0   0   0   0   0   0
+M1  0   0   0   0   0   0.875   0.125   0   0   0   0   0
+D1  0   0   0   0   0   0   0   0   0   0   0   0
+I1  0   0   0   0   0   0   0   0   0   0   0   0
+M2  0   0   0   0   0   0   0   0   0.857   0.143   0   0
+D2  0   0   0   0   0   0   0   0   1.0 0   0   0
+I2  0   0   0   0   0   0   0   0   0   0   0   0
+M3  0   0   0   0   0   0   0   0   0   0   0   1.0
+D3  0   0   0   0   0   0   0   0   0   0   0   1.0
+I3  0   0   0   0   0   0   0   0   0   0   0   0
+E   0   0   0   0   0   0   0   0   0   0   0   0
+--------
+    A   B   C   D   E
+S   0   0   0   0   0
+I0  0   0   0   0   0
+M1  0   0   0   0   1.0
+D1  0   0   0   0   0
+I1  0   0   0   0   0
+M2  0   0.857   0   0   0.143
+D2  0   0   0   0   0
+I2  0   0   0   0   0
+M3  0.143   0   0   0.714   0.143
+D3  0   0   0   0   0
+I3  0   0   0   0   0
+E   0   0   0   0   0"
+"1525547596-294","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","(+1 -2 -4 +3)
+1, 6, 3, 8","Implement 2-BreakOnGenome","http://rosalind.info/problems/ba6k/","(+2 -1) (-3 +4)"
+"1525547752-368","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","0 0 0 4 -2 -3 -1 -7 6 5 3 2 1 9 3 -8 0 3 1 2 1 8
+XZZXZXXXZXZZXZXXZ","Find a Highest-Scoring Peptide in a Proteome against a Spectrum","http://rosalind.info/problems/ba11f/","ZXZXX"
+"1525547655-322","http://rosalind.info/problems/list-view/?location=bioinformatics-textbook-track","NQEL","Generate the Theoretical Spectrum of a Linear Peptide","http://rosalind.info/problems/ba4j/","0 113 114 128 129 242 242 257 370 371 484"
