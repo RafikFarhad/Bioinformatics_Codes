@@ -1,3 +1,5 @@
+import itertools
+
 def Hamming(Dna, Pat):
     return len([i for (i, j) in zip(Dna, Pat) if i!=j])
     
@@ -13,13 +15,15 @@ def Kamla(Dna, Pat, d):
 def Best(Text, mer, d):
     cur = 0
     res = {}
-    for i in range(len(Text)-mer+1):
-        a = Kamla(Text, Text[i:i+mer], d)
-        res[Text[i:i+mer]] = a
+    L= 'ACGT'
+    perms = itertools.product(L, repeat=mer)
+    for k in perms:
+        pat = ''.join(k)
+        res[pat] = Kamla(Text, pat, mer)
+        cur = max(res[pat], cur)
     ans = []
+    return cur
     for r in res.keys():
-        if r=='GCACACAGAC':
-            print(r, res[r])
         if res[r] > cur:
             ans = [r]
             cur = res[r]
