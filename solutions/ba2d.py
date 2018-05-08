@@ -14,79 +14,12 @@ def ProfileMostProbable(dna, k, profile):
             local *= profile[dd[dna[i+j]]][j]
         ans = max(ans, (local, dna[i:i+k]))
     return ans
-def make_profile(kMers):
-    """ return list of dictionaries where each dictionary is column of the profile """
 
-    if len(kMers) == 0:
-        print "None!!!"
-        return None
-
-    k = len(kMers[0])
-    t = len(kMers)
-    profile = list(dict())
-    for i in xrange(k):
-        profile_col = {'A':0, 'C':0, 'G':0, 'T':0}
-        for j in xrange(t):
-            profile_col[kMers[j][i]] += 1
-
-        for key in profile_col.keys():
-            profile_col[key] = 1.0 * profile_col[key] / t
-
-        profile.append(profile_col)
-
-    return profile
-
-def pattern_probability(profile, pattern):
-    probability = 1
-    for i in xrange(0, len(pattern)):
-        probability *= profile[i][pattern[i]]
-
-    return probability
-
-def profile_most_probable_kmer(dna, profile, k):
-    start = 0
-    length = len(dna)
-    max_probability = 0
-    most_probable = dna[0:k]
-    while start + k <= length:
-        substr = dna[start:start+k]
-        probability = pattern_probability(profile, substr)
-        if probability > max_probability:
-            most_probable = substr
-            max_probability = probability
-
-        start += 1
-
-    return most_probable
-
-def hamming_dist(str_one, str_two):
-    """ returns number of hamming_dist between two strings """
-
-    len_one = len(str_one)
-    len_two = len(str_two)
-    if len_one != len_two:
-        raise ValueError("Strings have different lengths.")
-
-    mismatches = 0
-    for i in xrange(len_one):
-        if str_one[i] != str_two[i]:
-            mismatches += 1
-
-    return mismatches
-
-def make_consensus(motifes):
-    profile = make_profile(motifes)
-    consensusList = list()
-    for item in profile:
-        consensusList.append(max(item, key=item.get))
-
-    return ''.join(consensusList)
- 
-def getScore(motifes):
-    consensus = make_consensus(motifes)
-    score = 0
-    for motif in motifes:
-        score += hamming_dist(consensus, motif)
+def getScore(motifs):
+    k = len(motifs)
+    countMatrix = [[ m.count(base) for m in zip(*motifs) ] for base in "ACGT"]
+    score = k * len(motifs[0]) - sum([ max(m) for m in zip(*countMatrix) ])
+    return score
 
 def GetProfile(all_dna):
     k = len(all_dna)
