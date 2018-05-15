@@ -1,2 +1,2 @@
-GGGTATCG
-3
+ACG
+1
