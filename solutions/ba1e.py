@@ -22,7 +22,7 @@ def Best(Text, mer, t):
             ans.append(r)
     return ans
 
-def Kamla(Dna, k, L, t):
+def Clumps(Dna, k, L, t):
     res = []
     for i in range(len(Dna) + L - 1):
         res += Best(Dna[i:i+L], k, t)
@@ -32,13 +32,13 @@ def Kamla(Dna, k, L, t):
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
     k = int(inp[1].split(' ')[0])
     L = int(inp[1].split(' ')[1])
     t = int(inp[1].split(' ')[2])
 
-    ans = Kamla(inp[0], k, L, t)
+    ans = Clumps(inp[0], k, L, t)
 
     output = ' '.join(set(ans))
 

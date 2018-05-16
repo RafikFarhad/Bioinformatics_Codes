@@ -1,6 +1,6 @@
 # ba1a
 
-def Count(Text, Pattern):
+def Appears(Text, Pattern):
     i = 0
     res = 0
     while(True):
@@ -16,9 +16,9 @@ def Count(Text, Pattern):
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
-    output = str(Count(inp[0], inp[1]))
+    output = str(Appears(inp[0], inp[1]))
 
     # For debugging, print something to console
     print(output)

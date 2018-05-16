@@ -12,9 +12,7 @@ def Count(Text, Pattern):
         i+=1
     return res
 
-def Best(Dna, mer):
-    cur = 0
-    res = {}
+def FrequencyArray(Dna, mer):
     ans = []
     L= 'ACGT'
     perms = itertools.product(L, repeat=mer)
@@ -30,9 +28,9 @@ def Best(Dna, mer):
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
-    output = Best(inp[0], int(inp[1]))
+    output = FrequencyArray(inp[0], int(inp[1]))
     
     output = ' '.join(str(i) for i in output)
     # For debugging, print something to console

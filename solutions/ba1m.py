@@ -1,7 +1,7 @@
 import itertools
 
 
-def Best(digit, mer):
+def NumberToPattern(digit, mer):
     dd = {
         0: 'A',
         1: 'C',
@@ -21,9 +21,9 @@ def Best(digit, mer):
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
-    output = Best(int(inp[0]), int(inp[1]))
+    output = NumberToPattern(int(inp[0]), int(inp[1]))
     
     output = ' '.join(str(i) for i in output)
     # For debugging, print something to console

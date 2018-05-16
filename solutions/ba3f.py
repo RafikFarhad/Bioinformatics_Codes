@@ -56,7 +56,7 @@ def EulerianCycle2(graph):
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
     output = EulerianCycle2( {int(a.split(' -> ')[0]): [int(p) for p in a.split(' -> ')[1].split(',')]  for a in inp})
     print(output)

@@ -1,5 +1,5 @@
 
-def Kamla(Dna, Pat):
+def All(Dna, Pat):
     arr = []
     i = 0
     while(True):
@@ -13,9 +13,9 @@ def Kamla(Dna, Pat):
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
-    ans = Kamla(inp[1], inp[0])
+    ans = All(inp[1], inp[0])
 
     output = ' '.join([str(i) for i in ans])
 

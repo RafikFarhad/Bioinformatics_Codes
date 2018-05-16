@@ -4,7 +4,6 @@ def Hamming(Dna, Pat):
     return len([i for (i, j) in zip(Dna, Pat) if i!=j])
 
 def GetAllString(mer):
-    res = {}
     L= 'ACGT'
     perms = itertools.product(L, repeat=mer)
     all_str = []
@@ -22,11 +21,8 @@ def GetTotal(Dna, Pat):
 
 
 def MedianString(k, all_dna):
-    cur = 0
-    res = {}
     ans = []
     x = 1000000000
-    L= 'ACGT'
     perms = GetAllString(k)
     for a in perms:
         b = 0
@@ -41,7 +37,7 @@ def MedianString(k, all_dna):
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
     output = MedianString(int(inp[0].split()[0]), inp[0:])
     

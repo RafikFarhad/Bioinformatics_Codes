@@ -1,5 +1,6 @@
-
-def Kamla(Dna):
+# import matplotlib.pyplot as plt
+# %matplotlib inline
+def Skew(Dna):
     g = 0
     c = 0
     ans = [0]
@@ -12,13 +13,15 @@ def Kamla(Dna):
     mini = min(ans)
     # return ans;
     ans = [i for i, x in enumerate(ans) if x == mini]
+    # plt.plot(ans)
+    # plt.show()
     return ans
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
-    ans = Kamla(inp[0])
+    ans = Skew(inp[0])
 
     output = ' '.join([str(i) for i in ans])
 

@@ -1,7 +1,7 @@
 import itertools
 
 
-def Best(Dna):
+def PatternToNumber(Dna):
     digit = []
     for i in Dna:
         k = 0
@@ -20,9 +20,8 @@ def Best(Dna):
     return [ans]
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
-    print(inp)
-    output = Best(inp[0])
+    inp = [line.rstrip('\n') for line in infile]
+    output = PatternToNumber(inp[0])
     
     output = ' '.join(str(i) for i in output)
     # For debugging, print something to console

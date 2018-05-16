@@ -42,7 +42,7 @@ def MotifEnumeration(k, d, all_dna):
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
     output = MotifEnumeration(int(inp[0].split()[0]), int(inp[0].split()[1]), inp[1:])
     

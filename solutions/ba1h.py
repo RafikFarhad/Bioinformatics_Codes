@@ -1,7 +1,7 @@
 def Hamming(Dna, Pat):
     return len([i for (i, j) in zip(Dna, Pat) if i!=j])
     
-def Kamla(Dna, Pat, d):
+def Occurrences(Dna, Pat, d):
     arr = []
     i = 0
     for i in range(len(Dna) - len(Pat) + 1):
@@ -13,9 +13,9 @@ def Kamla(Dna, Pat, d):
 
 def main(infile, outfile):
     # Read the input, but do something non-trivial instead of count the lines in the file
-    inp = lines = [line.rstrip('\n') for line in infile]
+    inp = [line.rstrip('\n') for line in infile]
     print(inp)
-    ans = Kamla(inp[1], inp[0], int(inp[2]))
+    ans = Occurrences(inp[1], inp[0], int(inp[2]))
 
     output = ' '.join([str(i) for i in ans])
 
